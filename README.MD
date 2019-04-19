@@ -1,3 +1,6 @@
+[![Travis](https://img.shields.io/travis/vectra/gitproxy.svg?style=flat-square)](https://travis-ci.org/vectra/gitproxy)
+[![Docker Pulls](https://img.shields.io/docker/pulls/vectra/gitproxy.svg?style=flat-square)](https://vectra.co.za)
+
 # Http proxy for Git Servers
 
 Allows Git clients you to interact with a Git server using account credentials
