@@ -12,5 +12,10 @@ COPY . .
 USER app
 
 ENV NODE_ENV production
+ENV GIT_HOST=bitbucket.org
+ENV GIT_PORT=443
+ENV GIT_USER=myuser
+ENV GIT_PASSWORD=mypassword
+ENV AUTH_KEY=secret
 
 CMD ["node", "index"]
