@@ -1,5 +1,7 @@
 [![Travis](https://img.shields.io/travis/VectraSA/gitproxy.svg?style=flat-square)](https://travis-ci.org/VectraSA/gitproxy)
 [![Docker Pulls](https://img.shields.io/docker/pulls/vectra/gitproxy.svg?style=flat-square)](https://vectra.co.za)
+[![](https://images.microbadger.com/badges/image/vectra/gitproxy.svg)](https://microbadger.com/images/vectra/gitproxy)
+[![](https://images.microbadger.com/badges/version/vectra/gitproxy.svg)](https://microbadger.com/images/vectra/gitproxy)
 
 # Http proxy for Git Servers
 
