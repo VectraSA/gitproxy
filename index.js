@@ -33,11 +33,19 @@ const server = http.createServer((sReq, sRes) => {
     let key = creds[1]
 
     if (AUTH_KEY !== key) {
-      console.error(method + ' -> ' + headers['host'] + url + ' error: ' + 'Invalid Authentication Key')
+      console.warn(method + ' -> ' + headers['host'] + url + ' error: ' + 'Invalid Authentication Key')
       sRes.writeHead(401)
       sRes.end('Invalid Authentication Key')
       return
     }
+  }
+
+  // Only Allow Git Operations
+  if (url.indexOf('.git') === -1) {
+    console.warn(method + ' -> ' + headers['host'] + url + ' error: ' + 'Invalid URL')
+    sRes.writeHead(403)
+    sRes.end('Invalid URL')
+    return
   }
 
   let host = GIT_HOST + ':' + GIT_PORT
