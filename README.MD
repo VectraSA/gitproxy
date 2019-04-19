@@ -20,7 +20,7 @@ $ npm install git+https://git:secret@example.com/owner/repo.git
 | Name | Value | Example | Required |
 | ------ | ------ | ------ | ------ |
 | GIT_HOST | The Git Server name | bitbucket.org / github.com | Yes |
-| GIT_PORT | The Git Server port | ( 80 / 443 ) |  Yes |
+| GIT_PORT | The Git Server port | 80 / 443 |  Yes |
 | GIT_USER | Your User name for the Git Server | username |  Yes |
 | GIT_PASSWORD | Your Password for the Git Server | password |  Yes |
 | AUTH_KEY | Your client Secret to authenticate with the Proxy | secret |  No |
