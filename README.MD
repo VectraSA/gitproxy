@@ -28,7 +28,7 @@ $ npm install https://git:secret@example.com/owner/repo.git
 ##### Run in Node
 ```sh
 $ npm install
-$ GIT_HOST=bitbucket.org GIT_PORT=443 GIT_USER=user GIT_PASSWORD=password /
+$ GIT_HOST=bitbucket.org GIT_PORT=443 GIT_USER=user GIT_PASSWORD=password \
   npx nodemon index.js
 ```
 
