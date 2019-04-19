@@ -28,7 +28,7 @@ $ npm install https://git:secret@example.com/owner/repo.git
 ##### Run in Node
 ```sh
 $ npm install
-$ GIT_HOST=bitbucket.org GIT_PORT=443 GIT_USER=user GIT_PASSWORD=password /
+$ GIT_HOST=bitbucket.org GIT_PORT=443 GIT_USER=user GIT_PASSWORD=password \
   npx nodemon index.js
 ```
 
@@ -64,5 +64,7 @@ $ docker-compose up
 ```
 
 Visit [Vectra](https://vectra.co.za)
+
 Docker Image [Docker Hub](https://hub.docker.com/r/vectra/gitproxy)
+
 Git Repo [GitHub](https://github.com/VectraSA/gitproxy)
