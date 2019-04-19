@@ -64,5 +64,7 @@ $ docker-compose up
 ```
 
 Visit [Vectra](https://vectra.co.za)
+
 Docker Image [Docker Hub](https://hub.docker.com/r/vectra/gitproxy)
+
 Git Repo [GitHub](https://github.com/VectraSA/gitproxy)
