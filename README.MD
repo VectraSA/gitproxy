@@ -1,5 +1,6 @@
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Travis](https://img.shields.io/travis/VectraSA/gitproxy.svg?style=flat-square)](https://travis-ci.org/VectraSA/gitproxy)
-[![Docker Pulls](https://img.shields.io/docker/pulls/vectra/gitproxy.svg?style=flat-square)](https://vectra.co.za)
+[![Docker Pulls](https://img.shields.io/docker/pulls/vectra/gitproxy.svg?style=flat-square)](https://hub.docker.com/r/vectra/gitproxy)
 [![](https://images.microbadger.com/badges/image/vectra/gitproxy.svg)](https://microbadger.com/images/vectra/gitproxy)
 [![](https://images.microbadger.com/badges/version/vectra/gitproxy.svg)](https://microbadger.com/images/vectra/gitproxy)
 
@@ -73,3 +74,5 @@ Visit [Vectra](https://vectra.co.za)
 Docker Image [Docker Hub](https://hub.docker.com/r/vectra/gitproxy)
 
 Git Repo [GitHub](https://github.com/VectraSA/gitproxy)
+
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
