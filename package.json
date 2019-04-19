@@ -1,0 +1,23 @@
+{
+  "name": "gitproxy",
+  "version": "1.0.0",
+  "description": "Git Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Vectra <code@vectra.co.za>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "keywords": [
+    "git",
+    "proxy",
+    "bitbucket",
+    "github"
+  ]
+}
