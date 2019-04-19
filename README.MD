@@ -12,8 +12,8 @@ Useful for installing NPM modules from hosted Git repositories.
 $ git clone http://localhost:3000/owner/repo.git
 $ git clone https://git:secret@example.com/owner/repo.git
 
-$ npm install http://localhost:3000/owner/repo.git
-$ npm install https://git:secret@example.com/owner/repo.git
+$ npm install git+http://localhost:3000/owner/repo.git
+$ npm install git+https://git:secret@example.com/owner/repo.git
 ```
 
 #### Environment Variables
